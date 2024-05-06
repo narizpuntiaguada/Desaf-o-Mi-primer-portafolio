@@ -1,0 +1,17 @@
+.skills{
+    &__item{
+        display:flex;
+        align-items: center;
+    }
+
+    &__name{
+        margin: 0;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .skills__container-item{
+        padding: 15px;
+    }
+}
